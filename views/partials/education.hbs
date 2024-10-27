@@ -2,7 +2,15 @@
 <section>
 	<h2>Education</h2>
 	{{#each resume.education}}
-    {{> section-item title=institution website=website subtitle=(concat studyType ' in ' area) startDate=startDate endDate=endDate}}
+	{{#unless studyType}}
+    	{{> section-item title=institution website=website subtitle=area startDate=startDate endDate=endDate list=courses}}
+	{{else}}
+		{{#unless area}}
+			{{> section-item title=institution website=website subtitle=studyType startDate=startDate endDate=endDate list=courses}}
+		{{else}}
+			{{> section-item title=institution website=website subtitle=(concat studyType " in " area) startDate=startDate endDate=endDate list=courses}}
+		{{/unless}}
+	{{/unless}}
 	{{/each}}
 </section>
 {{/if}}
