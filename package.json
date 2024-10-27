@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-sky",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sky theme for the JSON Resume Project",
   "author": "Omri Levy",
   "repository": {
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "resume serve --theme .",
-    "build": "gulp build",
+    "export": "gulp cssExport && resume export resume.pdf --theme .",
     "dev": "gulp"
   },
   "license": "MIT",
