@@ -1,15 +1,15 @@
 {
-  "name": "jsonresume-theme-autumn",
-  "version": "1.0.1",
-  "description": "Autumn theme for the JSON Resume Project",
-  "author": "Lorenzo Dal'Aqua",
+  "name": "jsonresume-theme-sky",
+  "version": "1.0.0",
+  "description": "Sky theme for the JSON Resume Project",
+  "author": "Omri Levy",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lorenzodalaqua/jsonresume-theme-autumn"
+    "url": "https://github.com/omri2861/jsonresume-theme-sky"
   },
   "scripts": {
     "start": "resume serve --theme .",
-    "export": "gulp cssExport && resume export resume.pdf --theme .",
+    "build": "gulp build",
     "dev": "gulp"
   },
   "license": "MIT",

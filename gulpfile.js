@@ -31,16 +31,6 @@ function css() {
 }
 
 /**
- * Build the CSS file for checking in repository and saving as
- */
-function cssExport() {
-  return gulp
-    .src(`${STYLES_DIR}/${CSS_FILENAME}`)
-    .pipe(postcss())
-    .pipe(gulp.dest(__dirname));
-}
-
-/**
  * Build the HTML from the resume file (either resume.json provided or a
  * default) and from the templates in views folder
  */
@@ -114,6 +104,7 @@ function server() {
 const dev = gulp.series(clean, build, gulp.parallel(server, watch));
 
 module.exports = {
-  cssExport,
+  css,
+  build,
   default: dev
 };
