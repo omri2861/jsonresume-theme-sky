@@ -9,8 +9,8 @@
     {{#if phone}}
       {{> icon-tag icon="phone" text=phone title="Phone" url=""}}
     {{/if}}
-    {{#if website}}
-      {{> icon-tag icon="desktop" text=(removeProtocol website) url=website title="Website"}}
+    {{#if url}}
+      {{> icon-tag icon="desktop" text=(removeProtocol url) url=url title="url"}}
     {{/if}}
     {{#if profiles.length}}
 			{{#each profiles}}
