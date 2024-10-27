@@ -1,8 +1,8 @@
 # Autumn Theme for JSON Resume
 
-This is the Autumn theme for the [JSON Resume](https://jsonresume.org/) project. It is built using [Tailwind CSS](https://tailwindcss.com/).
+This is the Sky theme for the [JSON Resume](https://jsonresume.org/) project. It is a fork of the [Autumn Theme](https://github.com/lorenzodalaqua/jsonresume-theme-autumn) by Lorenzo Dal'Aqua. The theme is built using [Tailwind CSS](https://tailwindcss.com/).
 
-![Preview of a resume using the Autumn theme](https://user-images.githubusercontent.com/8523099/149596708-7cd2c487-939e-4f83-b7fd-0b8e6abfddf1.png)
+![Preview of a resume using the Sky theme](screenshot.png)
 
 ## Development / Extension
 
