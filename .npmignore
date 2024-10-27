@@ -1,8 +1,12 @@
 node_modules/
 npm-debug.log
+
+public/
 resume.html
 resume.pdf
 resume.json
+
 .DS_Store
-public/
+
+TODO.md
 *.png
