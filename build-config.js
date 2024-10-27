@@ -61,6 +61,9 @@ module.exports = {
     formatDate: function (string) {
       const date = new Date(`${string} 00:00:01`);
       return formatDate(date, 'MMM yyyy');
+    },
+    formatPdf: function(str) {
+      return str.replace(' ', '-').toLowerCase() + ".pdf";
     }
   }
 };
